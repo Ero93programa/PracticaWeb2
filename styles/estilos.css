@@ -1,0 +1,179 @@
+body{
+	margin: 0px;
+	background-color: deepskyblue;	
+}
+
+
+nav{
+	background-color: black;
+	border-bottom: 2px solid darkblue ;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	Justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	z-index: 1;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+nav a{
+	color: lightcyan ;
+	text-decoration: none;
+	font-size: 2rem;
+	margin-right: 1rem;
+	align-items: center;
+	font-family: 'Bebas Neue', cursive;
+}
+
+#formulario{
+	color: white;
+	display: flex;
+	flex-direction: column;	
+
+}
+
+#usuario,#password{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+p,dd,li,table,label,summary,figcaption,h1,h3{
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+input{
+	margin-left: 2px;
+}
+
+
+
+summary,h1{
+	font-weight: bold;
+	color: darkblue;
+}
+
+#icono_nav,#icono_nav_malo{
+	height: 3rem;
+	margin-right: 1rem;
+	align-items: center;
+}
+
+#introductorio h1{
+	margin-top: 10rem;	
+	text-align: center;
+}
+
+#conjuntoaliens{
+	margin: auto;
+	width: 60%;
+	margin-top: 3.5rem;
+	margin-bottom: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#conjuntoaliens img{
+	width: 280px;
+	height: 340px;
+	border: 1px solid black;
+}
+
+h3{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+figure{
+	border: 1px solid black;
+	display: flex;
+	flex-flow: column;
+	width: 17rem;
+	float: right;
+	color: black;
+	background-color: cyan;
+	margin-left: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+
+figcaption{
+	background-color: #lightcyan;
+	color: #black;
+	font-weight: bold;
+	padding: 3px;
+	text-align: center;
+}
+
+#bio{
+	align-self: center;
+	margin: auto;
+	width: 60%;
+	margin-top: 8rem;
+}
+
+details{
+	margin: auto;
+	margin-top: 1rem;
+}
+
+summary>p{
+  text-align: justify; 
+  text-justify: auto;
+}
+
+ 
+table{
+	border-collapse: collapse;
+	font-size: large;
+	margin: auto;
+	max-width: 70%;
+	margin-top: 8rem;
+	margin-bottom: 2rem;
+	display: block;
+  overflow-x: auto;
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+table td,th{
+	border: 1px solid  #203B04;
+	padding: 0.5rem;
+	text-align: center;
+	width: 16.66%;
+}
+
+table tr:nth-child(2n){
+	background-color: lightseagreen;
+}
+
+table tr:nth-child(2n+1){
+	background-color: lightskyblue;
+}
+
+table th{
+	font-size: x-large;
+	color: white;
+	background-color: black;
+}
+
+table td:first-child{
+	text-align: center;
+	font-size: x-large;
+}
+
+table td:last-child{
+	padding: 0px;
+}
+
+table img{
+	width: 100%;
+	vertical-align: middle;
+}
+
